@@ -27,7 +27,8 @@
   },
   "scripts": {
     "mongo": "mongod --dbpath db",
-    "start": "nodemon app.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "watch": "gulp server",
     "prod": "gulp build && node app.js",
     "config": "cp .env.config .env"
