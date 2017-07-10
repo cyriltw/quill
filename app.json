@@ -6,7 +6,6 @@
             "description": "dev or production",
             "value": "dev"
         },
-        "PORT": "3000",
         "DATABASE": {
             "description": "URI for your MongoDB database",
             "value": ""
